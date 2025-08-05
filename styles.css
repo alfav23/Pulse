@@ -23,6 +23,10 @@ p {
     font-size: 1.125rem;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -143,6 +147,10 @@ p {
     background-color: #fcfcfc;
     padding: 0rem 0rem 4rem;
     width: 600px;
+}
+
+.card, .card-2:hover {
+    cursor: pointer;
 }
 
 .card-2 {
